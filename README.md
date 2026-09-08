@@ -35,15 +35,59 @@ Click **"Run Demo"** in the sidebar to see the full pipeline in action on a samp
 
 ##  Architecture
 
-            Streamlit UI
-                 │
-            Agent Router
-    ┌────────────┼────────────┐
-    ▼            ▼            ▼
-Resume Agent Job Agent Q&A Agent │ │ ▼ ▼ Resume Parser JD Parser │ │ └──────┬─────┘ ▼ Matching Engine ▼ Evidence Validator ▼ Decision Agent ▼ Deterministic Score Engine ▼ Recommendation Agents ┌────────┼────────┐ ▼ ▼ ▼ Skill Gap Learning Interview Roadmap Prep ▼ Final Validation ▼ Live Report
 
+```mermaid
+flowchart TD
+    UI([🖥️ Streamlit UI])
+    ROUTER{🧠 Agent Router}
+    
+    UI --> ROUTER
+    
+    ROUTER --> RA[📄 Resume Agent]
+    ROUTER --> JA[💼 Job Agent]
+    ROUTER --> QA[💬 Q&A Agent]
+    
+    RA --> RP[Resume Parser]
+    JA --> JP[JD Parser]
+    
+    RP --> ME[⚙️ Matching Engine]
+    JP --> ME
+    
+    ME --> EV[🔍 Evidence Validator]
+    EV --> DA[⚖️ Decision Agent]
+    DA --> SE[📊 Deterministic Score Engine]
+    
+    SE --> RECA[✨ Recommendation Agents]
+    
+    RECA --> SG[🎯 Skill Gap]
+    RECA --> LR[📚 Learning Roadmap]
+    RECA --> IP[🎤 Interview Prep]
+    
+    SG --> FV[✅ Final Validation]
+    LR --> FV
+    IP --> FV
+    QA --> FV
+    
+    FV --> REPORT([📋 Live Report])
+    
+    style UI fill:#F5B14A,stroke:#0F1115,stroke-width:2px,color:#0F1115
+    style ROUTER fill:#0F1115,stroke:#F5B14A,stroke-width:2px,color:#F5B14A
+    style ME fill:#1F232C,stroke:#F5B14A,stroke-width:2px,color:#F5B14A
+    style SE fill:#059669,stroke:#0F1115,stroke-width:2px,color:#fff
+    style RECA fill:#1F232C,stroke:#F5B14A,stroke-width:2px,color:#F5B14A
+    style FV fill:#0F1115,stroke:#059669,stroke-width:2px,color:#059669
+    style REPORT fill:#F5B14A,stroke:#0F1115,stroke-width:2px,color:#0F1115
+```
 
----
+### 🔄 The 5-Stage Agentic Pipeline
+
+| Stage | Description |
+|-------|-------------|
+| **1️⃣ UNDERSTAND** | Agent Router identifies user intent and routes to the correct workflow |
+| **2️⃣ EXTRACT** | Resume Agent + Job Agent parse inputs into typed Pydantic schemas |
+| **3️⃣ COMPARE** | Matching Engine evaluates every requirement against resume evidence |
+| **4️⃣ DECIDE** | Evidence Validator + Decision Agent assign statuses with confidence scores |
+| **5️⃣ RECOMMEND** | Recommendation Agents generate gaps, roadmap, interview prep, and report |
 
 ## 🛠️ Tech Stack
 
