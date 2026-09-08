@@ -1,0 +1,21 @@
+Python Developer
+
+We are looking for a Python Developer to join our backend team.
+
+Required
+- Python (must have)
+- REST APIs (Flask or FastAPI)
+- SQL and PostgreSQL
+- Git and Linux
+
+Preferred
+- Docker
+- AWS
+- CI/CD pipelines
+
+Nice to have
+- Kubernetes
+- Kafka
+
+Experience: 1+ years.
+Education: Bachelor's degree in CS or related field.

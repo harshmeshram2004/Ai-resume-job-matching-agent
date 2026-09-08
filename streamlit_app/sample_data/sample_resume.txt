@@ -1,0 +1,43 @@
+Priya Sharma
+priya.sharma@example.com
++91 98765 43210
+
+SUMMARY
+Aspiring AI/ML engineer with strong Python fundamentals and hands-on experience
+building machine learning and NLP projects during coursework and internships.
+
+EDUCATION
+B.Tech Computer Science, IIT Delhi, 2024
+CGPA: 8.4/10
+
+SKILLS
+Python, SQL, Machine Learning, Deep Learning, Natural Language Processing,
+Pandas, NumPy, scikit-learn, TensorFlow, PyTorch, Git, Linux
+
+PROJECTS
+1. Sentiment Analysis on Product Reviews
+   Built a text classification pipeline using scikit-learn and TF-IDF features
+   over 50K Amazon reviews. Reached 88% F1 on the test set.
+   Technologies: Python, scikit-learn, Pandas
+
+2. Image Classifier with CNN
+   Trained a convolutional neural network in PyTorch on CIFAR-10 achieving 82%
+   accuracy. Experimented with data augmentation and dropout.
+   Technologies: Python, PyTorch
+
+3. RAG-based FAQ Bot
+   Implemented a retrieval-augmented FAQ bot using HuggingFace transformers
+   and FAISS for semantic search over 5K support documents.
+   Technologies: Python, transformers, FAISS
+
+EXPERIENCE
+Data Science Intern, Acme Analytics (Summer 2023)
+- Built SQL data pipelines and ML models to forecast churn.
+- Presented findings to product managers.
+
+ACHIEVEMENTS
+- Winner, IIT Delhi Hackathon 2023 (NLP track)
+- Kaggle Expert
+
+CERTIFICATIONS
+- DeepLearning.AI: Machine Learning Specialization

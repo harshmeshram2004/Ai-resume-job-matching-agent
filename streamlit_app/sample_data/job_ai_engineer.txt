@@ -1,0 +1,29 @@
+AI/ML Engineer
+
+Company: TechCorp
+Location: Bengaluru, India
+
+About the role
+We are hiring an AI/ML Engineer to design and ship production ML systems.
+
+Requirements
+- Must have strong Python programming skills.
+- Required: Machine Learning and Deep Learning experience.
+- Required: SQL and data manipulation with Pandas.
+- Required: Natural Language Processing project experience.
+- Required: 2+ years of relevant experience (internships count).
+- Preferred: Experience with Docker and containerization.
+- Preferred: Familiarity with AWS or GCP.
+- Nice to have: Kubernetes and MLOps tooling like Airflow.
+
+Responsibilities
+- Build, train and evaluate ML models.
+- Deploy models to production and monitor performance.
+- Collaborate with product and engineering teams.
+
+Education
+Bachelor's degree in Computer Science, Engineering, or related field.
+
+Soft Skills
+- Strong communication and teamwork.
+- Problem solving under ambiguity.

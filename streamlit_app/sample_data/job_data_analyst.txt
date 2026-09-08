@@ -1,0 +1,13 @@
+Data Analyst
+
+Required
+- SQL (must have)
+- Python or R
+- Excel and data visualization
+- Communication skills
+
+Preferred
+- Tableau or Power BI
+- Statistics
+
+Experience: 1+ years.
